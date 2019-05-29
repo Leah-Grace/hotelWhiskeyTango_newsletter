@@ -4,12 +4,8 @@ div {
 
 * {
     font-family: "arial", sans-serif;
-    color: rgb(245, 168, 2);   
+    color: rgb(245, 168, 2);
 } 
-
-/*h3, h4 {
-    color: white;
-} */
 
 .header-div{
     display: flex;
@@ -26,7 +22,7 @@ div {
     border-radius: 25px 50px 30px; 
     width: 85%; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,11 +40,12 @@ div {
     border-radius: 25px 50px 30px; 
     width: 85%; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    border-width: 3px 1px 3px 1px;
+    border-width: 3px 3px 3px 3px;
     display: inline-block;
     text-align: left;
     line-height: 2em;
     background-color:rgba(255, 242, 207);
+    color: rgb(0, 32, 91);
 }
 
 #newsletter-form {
@@ -61,4 +58,8 @@ div {
     border-width: 3px 1px 3px 1px;
     background-color:rgb(255, 242, 207);
     display: inline-block;
+}
+
+a {
+    color: rgb(0, 32, 91);
 }
