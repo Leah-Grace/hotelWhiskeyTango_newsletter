@@ -4,8 +4,13 @@ div {
 
 * {
     font-family: "arial", sans-serif;
-    color: rgb(245, 168, 2);
+    color: rgba(13,68,114, 1);
+    
 } 
+
+body {
+    background-color: rgba(13,68,114, 1);
+}
 
 .header-div{
     display: flex;
@@ -15,7 +20,7 @@ div {
 
 .flex-container {
     /*  text-align: center; */
-    background-color: rgba(13, 68, 114, 1);
+    background-color: white;
     padding: 20px;
     margin: 20px; 
     border: solid black 2px; 
@@ -63,3 +68,10 @@ div {
 a {
     color: rgb(0, 32, 91);
 }
+
+
+/*    background-color: rgba(13,68,114, 1);
+  rgb(245, 168, 2);
+
+
+*/
