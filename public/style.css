@@ -4,8 +4,7 @@ div {
 
 * {
     font-family: "arial", sans-serif;
-    color: rgba(13,68,114, 1);
-    
+    color: rgba(13,68,114, 1); 
 } 
 
 body {
@@ -15,8 +14,6 @@ body {
 .header-div{
     display: flex;
 }
-
-
 
 .flex-container {
     /*  text-align: center; */
@@ -38,7 +35,7 @@ body {
 }
 
 .sub-containers {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 10px;
     margin: 10px; 
     border: solid rgb(245, 168, 2) 2px; 
