@@ -90,7 +90,9 @@ function getArchive() {
     document.getElementById("archiveList").innerHTML += archive[i].Date;
     var date = document.createElement("a").setAttribute("href", archive[i].URL);
     let parent = document.getElementById("archiveList");
-    parent.appendChild(date);
+    parent.appendChild(
+      document.createElement("a").setAttribute("href", archive[i].URL)
+    );
 
     date.innerHTML = archive.Date;
 
