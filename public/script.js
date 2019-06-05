@@ -1,3 +1,4 @@
+console.log("Script Running");
 var archive = [
   {
     Date: "2019-03-01",
@@ -84,8 +85,34 @@ var archive = [
 ];
 //console.log(archive);
 
+function getArchive() {
+  for (var i = 0; i < archive.length; i++) {
+    document.getElementById("archiveList").innerHTML += archive[i].Date;
+    var date = document.createElement("a").setAttribute("href", archive[i].URL);
+    let parent = document.getElementById("archiveList");
+    parent.appendChild(date);
+
+    date.innerHTML = archive.Date;
+
+    // let parent = document.getElementById("archiveList");
+    // let date = document.createElement("a").setAttribute("href", archive[i].URL);
+
+    // let child = document
+    //   .createElement("a")
+    //   .setAttribute("href", archive[i].URL);
+    // parent.appendChild(child);
+    // child.innerHTML = archive[i].Title + "<br>";
+    // date.innerHTML = archive[i].Date;
+  }
+}
+/*
 archive.forEach(a => {
-  console.log(a.URL);
+  let parent = document.getElementById("archiveList");
+  let date = document.createElement("a").setAttribute("href", a.URL);
+  date.innerHTML = a.Date;
+  let child = document.createElement("a").setAttribute("href", a.URL);
+  child.innerHTML = a.Title + "<br>";
+  parent.appendChild(date);
 });
 
 // var ccArchive = document.getElementById("archiveList").innerHTML;
@@ -96,3 +123,5 @@ archive.forEach(a => {
 //     var item = ul[i].getElementsByTagName("li").innerHTML;
 //     console.log(item);
 //     console.log(ul.length);
+
+*/
