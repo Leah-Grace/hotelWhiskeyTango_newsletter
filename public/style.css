@@ -33,8 +33,8 @@ body {
 }
 
 .sub-containers {
-  font-size: 1.3em;
-  padding: 10px;
+  font-size: 1em;
+  padding: 40px;
   margin: 10px;
   border: solid rgb(245, 168, 2) 2px;
   border-radius: 25px 50px 30px;
@@ -43,7 +43,7 @@ body {
   border-width: 3px 3px 3px 3px;
   display: inline-block;
   text-align: left;
-  line-height: 2em;
+  line-height: 2.3em;
   background-color: rgba(255, 242, 207);
   color: rgb(0, 32, 91);
 }
@@ -63,10 +63,6 @@ body {
 a {
   color: rgb(0, 32, 91);
 }
-
-/*    background-color: rgba(13,68,114, 1);
-  rgb(245, 168, 2);
-*/
 
 #archiveButton {
   display: flex;
